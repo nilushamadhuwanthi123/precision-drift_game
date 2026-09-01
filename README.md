@@ -22,4 +22,4 @@ It demonstrates a fixed-timestep game-loop architecture (`requestAnimationFrame`
 Just open `index.html` in a browser &mdash; no build step, no install.
 
 ## Live version
-TBD &mdash; will be added after deployment
+Play it here: https://nilushamadhuwanthi123.github.io/precision-drift_game/
