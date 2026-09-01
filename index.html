@@ -1222,9 +1222,9 @@
     announce("Race started.");
   }
 
-  document.getElementById("startBtn").addEventListener("click", startGame);
-  document.getElementById("restartBtn").addEventListener("click", startGame);
-  document.getElementById("resumeBtn").addEventListener("click", togglePause);
+  document.getElementById("startBtn").addEventListener("click", (e) => { e.currentTarget.blur(); startGame(); });
+  document.getElementById("restartBtn").addEventListener("click", (e) => { e.currentTarget.blur(); startGame(); });
+  document.getElementById("resumeBtn").addEventListener("click", (e) => { e.currentTarget.blur(); togglePause(); });
 
   /* ============================================================
      BOOT
